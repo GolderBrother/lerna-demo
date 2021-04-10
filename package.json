@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "description": "this is a study demo of lerna",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
